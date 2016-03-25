@@ -1,0 +1,9 @@
+{
+  "name": "isone",
+  "author": "Nick Snyder",
+  "version": "1.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./app"
+  }
+}
