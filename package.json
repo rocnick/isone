@@ -1,6 +1,7 @@
 {
   "name": "isone",
   "author": "Nick Snyder",
+  "license": "MIT",
   "version": "1.0.2",
   "private": false,
   "repository" : {
