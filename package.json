@@ -1,8 +1,12 @@
 {
   "name": "isone",
   "author": "Nick Snyder",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "private": false,
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/rocnick/isone.git"
+  },
   "scripts": {
     "start": "node ./app"
   }
