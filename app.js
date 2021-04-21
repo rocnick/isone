@@ -1,12 +1,13 @@
-// (C) 2016 Nick Snyder
+// (C) 2020 Nick Snyder
 
-var isOne = function() {
-};
+var isOne = function() { };
 
 isOne.prototype = {
-  check: function(num) {
-    return num == 1 || parseInt(num) == 1;
-  }
+    check: function(num) {
+        let strNum = (num + '').toUpperCase;
+
+        return strNum === 'ONE' || strNum === 'UNO' || num === 1 || parseInt(num) === 1;
+    }
 }
 
 module.exports = new isOne();

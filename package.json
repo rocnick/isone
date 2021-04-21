@@ -1,8 +1,9 @@
 {
   "name": "isone",
   "author": "Nick Snyder",
+  "description": "A small package to determine if a variable is equal to one.",
   "license": "MIT",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "private": false,
   "repository" : {
     "type" : "git",
